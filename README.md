@@ -1,5 +1,17 @@
 # Hello, BPF CO-RE!
 
+## Run
+
+Running `make all` will install/build dependencies and build the program itself.
+
+Note: The makefile assumes the apt package manager, it should work with Ubuntu 22.04.
+
+After building, the program can be run with:
+
+```sh
+sudo ./build/tracepoint
+```
+
 ## Trouble Shooting
 
 ### `clang` cannot compile BPF source files
